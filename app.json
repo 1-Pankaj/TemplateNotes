@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "TemplateNotes",
-    "slug": "TemplateNotes",
+    "name": "SimpleNotes",
+    "slug": "SimpleNotes",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,10 +19,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.deepstar.SimpleNotes"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "owner": "deepstar",
+    "extra": {
+      "eas": {
+        "projectId": "e284e88c-bbe1-42b3-babd-382739653d2a"
+      }
     }
   }
 }
